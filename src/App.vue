@@ -1,22 +1,24 @@
 <template>
   <div class="container">
-    <span class="greet">{{greeting}} World!</span>
-    <button class="btn btn-primary" v-on:click="greet">Espanol</button>
+    <document-list :documents='documents' />
   </div>
 </template>
 
 <script>
+  import data from './data';
+  import DocumentList from './components/documents/DocumentList.vue';
+
   export default {
     name: 'Main',
+    components: {
+      'document-list': DocumentList
+    },
     data() {
       return {
-        greeting: 'Hello'
+        documents: data.documents
       }
     },
     methods: {
-      greet() {
-        this.greeting = 'Hola';
-      }
     }
   }
 </script>
