@@ -4,13 +4,17 @@
   "description": "Demo web application built with Vue and Bootstrap",
   "main": "./src/main.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server  --open --hot --content-base ./dist"
+    "dev": "webpack-dev-server  --open --hot --content-base ./dist"
   },
   "keywords": [
     "Vue.js",
     "Bootstrap",
     "Webpack"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviralmishra/vue-bootstrap-demo.git"
+  },
   "author": "Aviral Mishra (aviral.mishra@gmail.com)",
   "license": "MIT",
   "dependencies": {

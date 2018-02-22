@@ -11,12 +11,25 @@ module.exports = {
     loaders: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader'
-      },
-      {
+        loader: 'vue-loader',
+        options: {
+          loaders: {
+            'scss': 'vue-style-loader!css-loader!sass-loader'
+          }
+        }
+      }, {
         test: /\.js$/,
         loader: 'babel-loader!eslint-loader',
         exclude: /node_modules/
+      }, {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: 'css-loader'
+          }, {
+            loader: 'sass-loader'
+          }
+        ]
       }
     ]
   },
