@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <document-list :documents='documents' />
-  </div>
+  <document-list :documents='documents'/>
 </template>
 
 <script>
