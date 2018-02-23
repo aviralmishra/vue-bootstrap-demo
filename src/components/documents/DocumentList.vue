@@ -1,8 +1,6 @@
 <template>
-  <div class="list-group document-list">
-    <ul>
-      <document-list-item v-for="(item, i) in documents" :document="item" :key="i"/>
-    </ul>
+  <div class="row document-list">
+    <document-list-item v-for="(item, i) in documents" :document="item" :key="i"/>
   </div>
 </template>
 
