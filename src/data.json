@@ -4,38 +4,43 @@
     "title": "Quisquam vel Dolores",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1468621480174-daef93f88958",
-    "status": "open",
-    "submissionDate": "2018-03-31T13:00:00.000Z",
+    "status": "Open",
+    "startDate": "2018-02-01T00:00:00.000Z",
+    "closingDate": "2018-03-15T00:00:00.000Z",
     "comments": 21
   }, {
     "id": "f8f6ea4b-14c2-4759-8211-ac7cfb49fdb9",
     "title": "Expedita Minima Repudiandae",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1476177725614-cdc50f15b345",
-    "status": "open",
-    "submissionDate": "2018-03-31T13:00:00.000Z",
+    "status": "Open",
+    "startDate": "2018-02-15T00:00:00.000Z",
+    "closingDate": "2018-03-31T00:00:00.000Z",
     "comments": 101
   }, {
     "id": "f8f6ea4b-14c2-4759-8211-ac7cfb49fdc9",
     "title": "Ut Veniam sit Aliquam",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1501691586945-40e89fff207f",
-    "status": "open",
-    "submissionDate": "2018-05-31T13:00:00.000Z",
+    "status": "Open",
+    "startDate": "2018-03-01T00:00:00.000Z",
+    "closingDate": "2018-05-31T00:00:00.000Z",
     "comments": 34
   }, {
     "id": "f8f6ea4b-14c2-4759-8211-ac7cfb49fdd9",
     "title": "Kunze Bartell",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1462024095154-899fa94b875d",
-    "submissionDate": "2018-07-31T13:00:00.000Z",
+    "startDate": "2018-04-15T00:00:00.000Z",
+    "closingDate": "2018-07-31T00:00:00.000Z",
     "comments": 0
   }, {
     "id": "f8f6ea4b-14c2-4759-8211-ac7cfb49fdd9",
     "title": "Kunze Bartell",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1510847532186-d17680f414d9",
-    "submissionDate": "2018-07-31T13:00:00.000Z",
+    "startDate": "2018-05-15T00:00:00.000Z",
+    "closingDate": "2018-07-31T00:00:00.000Z",
     "comments": 0
   }]
 }

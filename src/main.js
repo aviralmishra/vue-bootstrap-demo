@@ -2,9 +2,9 @@ import Vue from 'vue';
 import App from './App.vue';
 
 import fontawesome from '@fortawesome/fontawesome';
-import {faFile} from '@fortawesome/fontawesome-free-solid';
+import {faComments, faFile} from '@fortawesome/fontawesome-free-solid';
 
-fontawesome.library.add(faFile);
+fontawesome.library.add(faComments, faFile);
 
 new Vue({
   el: '#app',
