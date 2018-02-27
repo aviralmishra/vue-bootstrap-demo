@@ -31,6 +31,7 @@
     "title": "Kunze Bartell",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1462024095154-899fa94b875d",
+    "status": "Open",
     "startDate": "2018-04-15T00:00:00.000Z",
     "closingDate": "2018-07-31T00:00:00.000Z",
     "comments": 0
@@ -39,6 +40,7 @@
     "title": "Kunze Bartell",
     "description": "Amet quia repellat qui explicabo omnis enim sint. Voluptatum aperiam maxime similique cum est non aliquam sed.",
     "image": "https://images.unsplash.com/photo-1510847532186-d17680f414d9",
+    "status": "Open",
     "startDate": "2018-05-15T00:00:00.000Z",
     "closingDate": "2018-07-31T00:00:00.000Z",
     "comments": 0

@@ -1,7 +1,9 @@
 var path = require('path');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: [
+    'babel-polyfill', './src/main.js'
+  ],
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: 'dist/',
@@ -23,13 +25,10 @@ module.exports = {
         exclude: /node_modules/
       }, {
         test: /\.scss$/,
-        use: [
-          {
-            loader: 'css-loader'
-          }, {
-            loader: 'sass-loader'
-          }
-        ]
+        use: ['css-loader', 'sass-loader']
+      }, {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
